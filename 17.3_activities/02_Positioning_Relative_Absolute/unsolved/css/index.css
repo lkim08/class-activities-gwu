@@ -1,31 +1,42 @@
 body {
   height: 5000px;
 }
+
 .left {
   width: 50%;
-  background-color: purple;
+  background-color: rgb(254, 155, 164);
 }
+
 .right {
   width: 50%;
-  background-color: green;
+  background-color: rgb(137, 224, 183);
 }
+
 .relative {
-  background-color: lightblue;
+  background-color: rgb(129, 219, 244);
   height: 250px;
   padding: 30px;
   margin: 10px;
   display: flex;
+  position: relative;
 }
+
 .absolute {
   height: 150px;
   width: 150px;
-  background-color: red;
+  background-color: rgb(137, 107, 207);
   color: white;
-
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
+
 .fixed {
   height: 200px;
   width: 200px;
-  background-color: green;
-
+  background-color: rgb(255, 255, 218);
+  position: fixed;
+  top:30px;
+  bottom: 10px;
+  right: 10px;
 }
