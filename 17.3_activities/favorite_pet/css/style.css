@@ -15,17 +15,17 @@ nav {
 }
 
 .sidebar {
-    width: 40%;
+    width: 20%;
     background-color: rgb(252, 247, 206);
     float: left;
     height: 800px;
 }
 
 .main-content {
-    width: 60%;
+    width: 70%;
+    height: 800px;
     float: left;
-    background-color: rgb(254, 216, 250);
-
+    background-color: rgb(255, 228, 228);
 }
 
 .pet-name {
@@ -33,7 +33,7 @@ nav {
 }
 
 .pet-name img {
-    width: 150px;
+    width: 350px;
 }
 
 .pet-content {
@@ -43,4 +43,5 @@ nav {
 .pet-content img{
     float: left;
     margin-right: 20px;
+    width: 250px;
 }
