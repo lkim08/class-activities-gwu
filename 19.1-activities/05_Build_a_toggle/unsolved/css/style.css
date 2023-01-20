@@ -1,0 +1,14 @@
+/* Style your dropdown below! */
+
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+li{
+    margin: 0 auto;
+    text-align: center;
+    width:auto;
+    font-family: Open Sans;
+}
